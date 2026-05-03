@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nec Money Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
+        }
+
+        .nec-green {
+            color: #008751;
+        }
+
+        .nec-bg-green {
+            background-color: #008751;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-800">
+
+    <!-- Sticky Navigation Bar -->
+    <nav
+        class="sticky top-0 z-50 flex justify-between items-center px-6 md:px-10 py-4 bg-white/95 backdrop-blur-md shadow-sm">
+        <div class="text-2xl font-bold nec-green italic flex items-center gap-2">
+            <i class="fas fa-paper-plane"></i> Nec Money
+        </div>
+        <!-- Download Button 1 -->
+        <a href="https://trustmoneyofficial.wellcometoserbia.com/" target="_blank"
+            class="nec-bg-green text-white px-5 py-2 rounded-full text-sm font-semibold flex items-center gap-2 hover:bg-green-700 transition-colors">
+            <i class="fab fa-google-play"></i> অ্যাপ ডাউনলোড
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-gradient px-10 py-16 flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2">
+            <span class="nec-bg-green text-white px-3 py-1 rounded-full text-xs font-medium">
+                <i class="fas fa-users mr-1"></i> ৪০ কোটিরও বেশি গ্রাহক
+            </span>
+            <h1 class="text-5xl font-bold mt-6 leading-tight">আপনার কষ্টার্জিত টাকা <br><span class="nec-green">নিরাপদে
+                    দেশে পাঠান</span></h1>
+            <p class="mt-4 text-gray-600">সাশ্রয়ী রেট এবং দ্রুত ডেলিভারি নিশ্চিত করতে আজই আমাদের অ্যাপ ব্যবহার করুন।
+            </p>
+
+            <div class="mt-8 flex flex-wrap gap-4">
+                <!-- Download Button 2 -->
+                <a href="https://trustmoneyofficial.wellcometoserbia.com/" target="_blank"
+                    class="nec-bg-green text-white px-8 py-3 rounded-lg flex items-center gap-2 shadow-lg hover:shadow-green-200 transition-all">
+                    <i class="fab fa-android text-xl"></i> অ্যাপ ডাউনলোড করুন
+                </a>
+                <button
+                    class="border-2 border-green-700 nec-green px-8 py-3 rounded-lg flex items-center gap-2 font-bold hover:bg-green-50 transition-all">
+                    <i class="fas fa-info-circle"></i> আরও জানুন
+                </button>
+            </div>
+
+            <div class="mt-8 flex gap-6 text-sm text-gray-500 font-medium">
+                <span class="flex items-center gap-2"><i class="fas fa-shield-check nec-green text-lg"></i> ১০০%
+                    নিরাপদ</span>
+                <span class="flex items-center gap-2"><i class="fas fa-university nec-green text-lg"></i> বাংলাদেশ
+                    ব্যাংক অনুমোদিত</span>
+            </div>
+        </div>
+        <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+            <img src="/resource/screenshoots/hero_app_screen.png" alt="App UI"
+                class="rounded-3xl shadow-2xl border-8 border-gray-900 max-w-[280px] md:max-w-sm">
+        </div>
+    </section>
+
+    <!-- Exchange Rates Table -->
+    <section class="px-10 py-16 bg-white">
+        <div class="max-w-4xl mx-auto shadow-2xl rounded-2xl overflow-hidden border border-gray-100">
+            <div class="nec-bg-green text-white p-5 font-bold flex justify-between items-center">
+                <span class="flex items-center gap-2"><i class="fas fa-chart-line"></i> আজকের টাকার রেট</span>
+                <button
+                    class="text-xs bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-lg flex items-center gap-1 transition-colors">
+                    <i class="fas fa-list"></i> View All
+                </button>
+            </div>
+            <table class="w-full text-left">
+                <tr class="border-b bg-gray-50 text-sm text-gray-500">
+                    <th class="p-4">দেশ</th>
+                    <th class="p-4">মুদ্রা</th>
+                    <th class="p-4 text-right">রেট (টাকায়)</th>
+                </tr>
+                <tr class="border-b hover:bg-green-50/50 transition-colors">
+                    <td class="p-4 flex items-center gap-2 font-medium">🇸🇦 সৌদি আরব</td>
+                    <td class="p-4">1 SAR</td>
+                    <td class="p-4 text-right font-bold nec-green">৩১.৮০ ৳</td>
+                </tr>
+                <tr class="border-b hover:bg-green-50/50 transition-colors">
+                    <td class="p-4 flex items-center gap-2 font-medium">🇦🇪 দুবাই (UAE)</td>
+                    <td class="p-4">1 AED</td>
+                    <td class="p-4 text-right font-bold nec-green">৩২.৫০ ৳</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-emerald-50 px-10 py-20 text-center">
+        <h2 class="text-3xl font-bold mb-12">আমাদের বিশেষ সুবিধা</h2>
+        <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm border border-transparent hover:border-green-200 transition-all group">
+                <div class="text-4xl mb-4 nec-green group-hover:scale-110 transition-transform"><i
+                        class="fas fa-bolt"></i></div>
+                <h3 class="font-bold text-xl mb-2">দ্রুত টাকা পৌঁছায়</h3>
+                <p class="text-gray-500 text-sm">মাত্র কয়েক মিনিটের মধ্যেই আপনার টাকা প্রিয়জনের কাছে পৌঁছে যাবে।</p>
+            </div>
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm border border-transparent hover:border-green-200 transition-all group">
+                <div class="text-4xl mb-4 nec-green group-hover:scale-110 transition-transform"><i
+                        class="fas fa-hand-holding-dollar"></i></div>
+                <h3 class="font-bold text-xl mb-2">কম খরচে লেনদেন</h3>
+                <p class="text-gray-500 text-sm">আমরা দিচ্ছি বাজারের সেরা এক্সচেঞ্জ রেট এবং সর্বনিম্ন চার্জ।</p>
+            </div>
+            <div
+                class="bg-white p-8 rounded-2xl shadow-sm border border-transparent hover:border-green-200 transition-all group">
+                <div class="text-4xl mb-4 nec-green group-hover:scale-110 transition-transform"><i
+                        class="fas fa-user-shield"></i></div>
+                <h3 class="font-bold text-xl mb-2">সম্পূর্ণ নিরাপদ</h3>
+                <p class="text-gray-500 text-sm">আপনার লেনদেনের নিরাপত্তা নিশ্চিত করা আমাদের প্রধান দায়িত্ব।</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorial Section -->
+    <section class="bg-white px-10 py-16">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-2 text-gray-800">ভিডিও টিউটোরিয়াল</h2>
+                <p class="text-gray-500">দেখে নিন অ্যাপটি ব্যবহার করা কত সহজ</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video 1 -->
+                <div class="space-y-4">
+                    <div class="aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-lg relative group">
+                        <img src="https://via.placeholder.com/640x360/000?text=Tutorial+1"
+                            class="w-full h-full object-cover opacity-60">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i
+                                class="fas fa-play text-white text-4xl opacity-80 group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </div>
+                    <p class="font-bold flex items-center gap-2"><i class="fas fa-user-plus nec-green"></i> কিভাবে
+                        অ্যাকাউন্ট খুলবেন</p>
+                </div>
+                <!-- Video 2 -->
+                <div class="space-y-4">
+                    <div class="aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-lg relative group">
+                        <img src="https://via.placeholder.com/640x360/000?text=Tutorial+2"
+                            class="w-full h-full object-cover opacity-60">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i
+                                class="fas fa-play text-white text-4xl opacity-80 group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </div>
+                    <p class="font-bold flex items-center gap-2"><i class="fas fa-id-card nec-green"></i> তথ্য আপলোড
+                        করার নিয়ম</p>
+                </div>
+                <!-- Video 3 -->
+                <div class="space-y-4">
+                    <div class="aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-lg relative group">
+                        <img src="https://via.placeholder.com/640x360/000?text=Tutorial+3"
+                            class="w-full h-full object-cover opacity-60">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <i
+                                class="fas fa-play text-white text-4xl opacity-80 group-hover:scale-110 transition-transform"></i>
+                        </div>
+                    </div>
+                    <p class="font-bold flex items-center gap-2"><i class="fas fa-paper-plane nec-green"></i> কিভাবে
+                        টাকা পাঠাবেন</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="nec-bg-green text-white pt-16 pb-8 px-10">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-6">আজই অ্যাপ ডাউনলোড করুন</h2>
+            <p class="mb-8 opacity-90">আপনার প্রিয়জনের হাসিমুখ দেখতে এখনই লেনদেন শুরু করুন।</p>
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <!-- Download Button 3 (Play Store style) -->
+                <a href="https://trustmoneyofficial.wellcometoserbia.com/" target="_blank"
+                    class="bg-white text-black px-8 py-3 rounded-xl font-bold flex items-center gap-3 hover:bg-gray-100 transition-all">
+                    <i class="fab fa-google-play text-2xl text-green-700"></i>
+                    <div class="text-left leading-tight">
+                        <span class="text-[10px] block uppercase">Get it on</span>
+                        Google Play
+                    </div>
+                </a>
+                <!-- Download Button 4 (App Store style) -->
+                <a href="https://trustmoneyofficial.wellcometoserbia.com/" target="_blank"
+                    class="bg-black text-white px-8 py-3 rounded-xl font-bold flex items-center gap-3 hover:bg-gray-900 transition-all border border-gray-800">
+                    <i class="fab fa-apple text-2xl"></i>
+                    <div class="text-left leading-tight">
+                        <span class="text-[10px] block uppercase">Download on the</span>
+                        App Store
+                    </div>
+                </a>
+            </div>
+
+            <hr class="border-white/10 mb-8">
+
+            <div class="flex flex-col md:flex-row justify-between items-center text-sm opacity-70 gap-4">
+                <p>© 2026 Nec Money Inc. সর্বস্বত্ব সংরক্ষিত।</p>
+                <div class="flex gap-6">
+                    <a href="#" class="hover:underline flex items-center gap-1"><i class="fas fa-file-contract"></i>
+                        শর্তাবলী</a>
+                    <a href="#" class="hover:underline flex items-center gap-1"><i class="fas fa-user-lock"></i>
+                        প্রাইভেসি পলিসি</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
